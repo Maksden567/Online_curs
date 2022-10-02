@@ -1,0 +1,105 @@
+.hero{
+    &__wrapper{
+     display: flex;
+
+        position: relative;
+    }
+    &__img-main{
+        
+    }
+    &__img1{
+        position: absolute;
+        left: 6.4%;
+    top: 19.1%;
+    }
+    &__img2{
+        position: absolute;
+        position: absolute;
+        left: 38.7%;
+        top: 4.9%;
+    }
+    &__left{
+        margin-left: -33px;
+    margin-top: 95px;
+    }
+    &__title{
+        width: 484px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 130%;
+        letter-spacing: -0.014em;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 23px;
+    }
+    &__subtitle{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.4);
+
+    }
+    &__input-block{
+        margin-top: 56px;
+        position: relative;
+        margin-bottom: 48px;
+    }
+    &__input{
+        width: 506px;
+        padding: 22px 32px;
+        background: #1F2143;
+border-radius: 12px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.4);
+letter-spacing: -0.1px;
+border: none;
+
+    }
+}
+.hero__input-block::after{
+    content:" ";
+    background:url("../../img/search.png");
+    display:inline-block;
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    right: 32px;
+    top: 11px;
+}
+.suggestion{
+    &__title{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.4);
+    }
+    &__items{
+        display: flex;
+        flex-wrap: wrap;
+        width: 529px;
+        margin-top: 33px;
+        margin-left: -3px;
+    }
+    &__item{
+        padding: 8px 18px;
+        border: 1px solid rgba(154, 156, 203, 0.6);
+        border-radius: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: rgba(154, 156, 203, 0.6);
+        margin-right: 24px;
+        margin-bottom: 22px;
+    }
+}
