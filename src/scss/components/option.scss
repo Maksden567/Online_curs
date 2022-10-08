@@ -41,6 +41,7 @@ color: rgba(255, 255, 255, 0.6);
 @media screen and (max-width:1210px) {
     .option__items{
       justify-content: center;
+      margin-top: 100px;
     }
     .option__item{
         margin-right: 10px;
@@ -49,6 +50,12 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width:450px) {
+    .option__wrapper{
+        padding-bottom: 40px;
+    }
+    .option__items{
+        margin-top: 170px;
+    }
     .option__item-img{
         img{
             width: 50px;
