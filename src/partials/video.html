@@ -1,0 +1,63 @@
+<section class="page__want">
+    <div class="container">
+        <div class="want__wrapper">
+            <div class="want__text">
+                <div class="want__title"><h2>Live Online Webinar</h2></div>
+                <div class="want__subtitle"><p>You can stream Webinar live on our apps. Stay update on our Webinar, it’s Free!</p></div>
+            </div>
+
+            <div class="mySwiper">
+
+           
+           <div class="video__items swiper-wrapper">
+             <div class="video__item swiper-slide swiper-slide-prev">
+                <video class="video "  src="" poster="../img/video__img.jpg"></video>
+                <img class="play" src="../img/play.png" alt="">
+                <div class="video__text">
+                    How To Build Portofolio as A Designer 
+                </div>
+             </div>
+             <div class="video__item swiper-slide-active swiper-slide ">
+                <video class="video " src="" poster="../img/video__img1.png"></video>
+               <img class="play" src="../img/play.png" alt="">
+               <div class="video__text">
+                How To Build Portofolio as A Designer 
+            </div>
+             </div>
+             <div class="video__item swiper-slide swiper-slide-next">
+                <video class="video " src="" poster="../img/video__img2.jpg"></video>
+                <img class="play" src="../img/play.png" alt="">
+                <div class="video__text">
+                    How To Build Portofolio as A Designer 
+                </div>
+             </div>
+           </div>
+        </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+     var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        initialSlide:1,
+        centeredSlides: true,
+       
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 60,
+          depth: 100,
+       
+          slideShadows: true,
+          
+          
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    
+
+  </script>
