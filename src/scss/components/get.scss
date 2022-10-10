@@ -182,3 +182,232 @@ border-radius: 16.469px;
 
 
 }
+@media screen and (max-width:1210px) {
+    .get__items{
+        left: 620px;
+    }
+    .get__img:first-child {
+        left: 56%;
+        top: 95.99px;
+    }
+    .get__img:nth-child(2){
+        left: 59%;
+        top:215px;
+    }
+}
+@media screen and (max-width:1140px) {
+    .get__items{
+        left: 580px;
+    }
+   
+    
+}
+@media screen and (max-width:1100px) {
+    .get__items{
+        left: 550px;
+    }
+   
+    .get__img:first-child {
+        left: 53%;
+        top: 95.99px;
+    }
+    .get__img:nth-child(2){
+        left: 55%;
+        top:215px;
+    }
+}
+@media screen and (max-width:1076px) {
+    .get__title h2{
+        font-size: 40px;
+    }
+    .get__subtitle p {
+        font-size: 15px;
+    }
+    .get__img:first-child {
+        left: 49%;
+    }
+    .get__img:nth-child(2){
+        left: 51%;
+    }
+    .get__items {
+        left: 483px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .get__title h2{
+        font-size: 35px;
+    }
+    .get__subtitle p {
+        font-size: 12px;
+    }
+    .get__img:first-child {
+        left: 49%;
+    }
+    .get__img:nth-child(2){
+        left: 51%;
+    }
+    .get__items {
+        left: 453px;
+    }
+}
+@media screen and (max-width:950px) {
+    .get__img:first-child {
+        left: 11%;
+        top: 20px;
+    }
+    .get__img:nth-child(2){
+        left: 19%;
+        top: 20px;
+        img{
+            width: 61px;
+            height: 61px;
+        }
+    }
+    .get__img:last-child{
+        left: 27%;
+        top: 20px;
+        img{
+            width: 61px;
+            height: 61px;
+        }
+    }
+    .get__item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .get__items {
+        left: 172px;
+        top: 591px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .get__img:first-child {
+        left: 8%;
+        top: 20px;
+    }
+    .get__img:nth-child(2){
+        left: 18%;
+        top: 20px;
+    }
+}
+@media screen and (max-width:670px) {
+    .get__img:first-child {
+        left: 6%;
+        top: 20px;
+    }
+    .get__img:nth-child(2){
+        left: 16%;
+        top: 20px;
+    }
+    .get__items {
+        left: 93px;
+        top: 591px;
+    }
+}
+@media screen and (max-width:500px) {
+    .get__img:first-child {
+        left: 2%;
+        top: 20px;
+    }
+    .get__item{
+        padding-left: 132px;
+        padding-bottom: 40px;
+    }
+    .get__img:nth-child(2){
+        left: 19%;
+        top: 20px;
+    }
+    .get__img:last-child{
+        left: 37%;
+        top: 20px;
+    }
+    .get__items {
+        left: 20px;
+        top: 686px;
+    }
+    .get__subtitle p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 180%;
+        color: rgba(255, 255, 255, 0.5);
+        width: 318px;
+    }
+}
+@media screen and (max-width:400px) {
+    .get__right {
+        margin-right: 0px;
+    }
+    .get__items {
+        left: 11px;
+        top: 650px;
+    }
+    .get__progress{
+        margin-right: 5px;
+    }
+    .get__title h2 {
+        font-size: 28px;
+    }
+    .get__subtitle p {
+        font-size: 16px;
+    }
+    .get__item {
+        padding-left: 112px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (max-width:370px) {
+    .get__img:first-child {
+        left: 4%;
+        top: 20px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .get__img:nth-child(2) {
+        left: 17%;
+        top: 20px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .get__img:nth-child(3) {
+        left: 30%;
+        top: 20px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .get__item {
+        padding-left: 58px;
+        padding-right: 0;
+    padding-bottom: 40px;
+    }
+    .get__buttons{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .get__right {
+    margin-left: -36px;
+        width: 276px;
+        height: 540px;
+    }
+    .get__right {
+        margin-top: 50px;
+        margin-right: 22px;
+    }
+    .get__items {
+        flex-direction: column;
+        left: 64px;
+        top: 709px;
+    }
+    .get__progress {
+        margin-bottom: 50px;
+    }
+}
+
