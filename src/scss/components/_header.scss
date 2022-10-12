@@ -4,7 +4,7 @@
     &__wrapper{
         @include flex-all-sb;
         padding-top: 21px;
-        padding-bottom: 21px;
+        padding-bottom: 53px;
     }
     &__left{
         @include flex-v-center
@@ -38,7 +38,7 @@ color: #FFFFFF;
     @include flex-v-center;
     position: relative;
     margin-top: -7px;
-    margin-right: 9px;
+    margin-right: 0px;
     cursor: pointer;
     &__text{
         font-family: "Inter";
@@ -81,7 +81,7 @@ line-height: 17px;
 color: rgba(255, 255, 255, 0.6);
     }
     
-margin-right: 45px;
+margin-right: 46px;
  }
  
 }

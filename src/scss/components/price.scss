@@ -1,0 +1,246 @@
+.price__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 85px 0;
+    padding-bottom: 115px;
+}
+.want__text{
+    text-align: center;
+}
+
+.want__title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.8);
+margin-bottom: 20px;
+
+}
+.want__subtitle{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: rgba(255, 255, 255, 0.4);
+
+}
+.price__items{
+    flex-wrap: wrap;
+    margin-top: 78px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.price__item{
+width: 372px;
+height: 515px;
+background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);
+border-radius: 20px;
+padding: 36px;
+padding-top: 37px;
+cursor: pointer;
+
+
+&-top{
+    display: flex;
+    padding-bottom: 32px;
+    border-bottom: 1.5px solid #272953;
+    margin-bottom: 29px;
+}
+&-image{
+    padding-right: 30px;
+}
+&-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.8);
+margin-bottom: -4px;
+}
+
+&-price{
+position: relative;
+::before{
+    content: "";
+    display: inline-block;
+    background: url("../../img/dolar.png");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: -12px;
+    top: 5px;
+}
+
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+color: #F5453D;
+span{margin-left: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.8);
+}
+}
+&-center{
+    margin-bottom: 131px;
+}
+.price__list-item{
+    margin-bottom: 16px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.8);
+
+
+
+}
+
+.price__list-item::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #9799CE;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+.price__item-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button{
+        transition: all ease 1s;
+        opacity: 0.5;
+        padding: 16px 74px;
+        border: 1px solid #F5443B;
+        border-radius: 6px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+background: none;
+text-align: center;
+color: #F5443B;
+    }
+    
+}
+
+}
+
+
+
+.price__item:hover{
+    
+    
+    .price__item-footer{
+        button{
+            cursor: pointer;
+            opacity: 1;
+        }
+        button:hover{
+            opacity: 1;
+            background: #F5443B;
+            color: #FFFFFF;
+        }
+        
+    }
+}
+
+.price__item:nth-child(2){
+    .price__item-center {
+        margin-bottom: 94px;
+    }
+}
+.price__item:nth-child(3){
+    .price__item-center {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1160px) {
+
+    .price__items{
+        justify-content: center;
+    }
+    .price__item{
+        margin-bottom: 20px;
+    }
+    .price__item:nth-child(2){
+        margin-left: 20px;
+    }
+    .price__item:last-child{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:450px) {
+.page__price{
+    .price__item{
+        margin-left: 0;
+    }
+  
+}
+      .want__title{
+        font-size: 24px;
+    }
+    .want__subtitle{
+        font-size: 14px;
+    }
+    .price__item .price__list-item {
+        margin-bottom: 16px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .price__item {
+        width: 270px;
+        height: 444px;
+        padding: 22px;
+    }
+    .price__item .price__item-footer button {
+        padding: 13px 30px;
+        font-size: 12px;
+    }
+    .price__item-center {
+        margin-bottom: 108px;
+    }
+    .price__item:nth-child(2) .price__item-center {
+        margin-bottom: 73px;
+    }
+    .price__item .price__list-item {
+        margin-bottom: 14px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .price__item:nth-child(2){
+        margin-left: 0px;
+
+    }
+}
+
