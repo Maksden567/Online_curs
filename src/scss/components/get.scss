@@ -358,7 +358,7 @@ border-radius: 16.469px;
         padding-bottom: 40px;
     }
 }
-@media screen and (max-width:370px) {
+@media screen and (max-width:426px) {
     .get__img:first-child {
         left: 4%;
         top: 20px;
@@ -403,11 +403,20 @@ border-radius: 16.469px;
     }
     .get__items {
         flex-direction: column;
-        left: 64px;
-        top: 709px;
+        left: 124px;
+        top: 739px;
     }
     .get__progress {
         margin-bottom: 50px;
     }
 }
-
+@media screen and (max-width:400px) {
+    .get__items{
+        left: 94px;
+    }
+}
+@media screen and (max-width:350px) {
+    .get__items{
+        left: 64px;
+    }
+}
