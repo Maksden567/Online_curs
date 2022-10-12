@@ -54,6 +54,12 @@ img{
     }
 }
 .swiper-slide-active{
+  .video{
+    width: 622.62px;
+    height: 424.2px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
   .play{
     display: block;
     position: absolute;
