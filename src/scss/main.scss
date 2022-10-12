@@ -7,7 +7,12 @@
 // подключения компонентов страницы
 @import "./components/header";
 @import "./components/footer";
-
+@import "./components/hero";
+@import "./components/want.scss";
+@import "./components/option.scss";
+@import "./components/price.scss";
+@import "./components/video.scss";
+@import "./components/get.scss";
 // тестовые стили, удалите их
 
 .page__body{
@@ -17,4 +22,7 @@
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.person{
+
 }
